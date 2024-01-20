@@ -5,12 +5,12 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="border-2 border-red-500 flex items-stretch justify-between padding-container relative z-30 py-1">
+    <nav className="flex items-stretch justify-between padding-container relative z-30 py-1">
       <Link href="/" className="flex items-center justify-center px-2">
         <Image src="\veer-black.svg" alt="logo" width={74} height={74} />
         <h1 className="font-logoFont text-xl">V E E R</h1>
       </Link>
-      <div className="border 2 border-blue-600 px -2">
+      <div className="px -2">
         <ul className="hidden h-full gap-12 lg:flex">
           {NAV_LINKS.map((link) => (
             <Link
@@ -23,10 +23,11 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
-      <div className="border 2 border-green-600 px-5">
+      <div className="px-5">
         <ul className="hidden h-full gap-8 lg:flex flexCenter">
           <li>
             <Image
+              className="cursor-pointer"
               src="\mag-glass-solid.svg"
               alt="mag-glass"
               width={20}
@@ -35,6 +36,7 @@ const Navbar = () => {
           </li>
           <li>
             <Image
+              className="cursor-pointer"
               src="\heart-regular.svg"
               alt="mag-glass"
               width={20}
@@ -44,6 +46,7 @@ const Navbar = () => {
 
           <li>
             <Image
+              className="cursor-pointer"
               src="\user-regular.svg"
               alt="mag-glass"
               width={20}
