@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-stretch justify-between padding-container relative z-30 py-1">
+    <nav className="flex items-stretch justify-between padding-container sticky z-30 top-0 py-1 ">
       <Link href="/" className="flex items-center justify-center px-2">
         <Image src="\veer-black.svg" alt="logo" width={74} height={74} />
         <h1 className="font-logoFont text-xl">V E E R</h1>
