@@ -16,11 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <Navbar/>
-        <main>
-        {children}
-        </main>
+      <body className="bg-white dark:bg-black">
+        <Navbar />
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
