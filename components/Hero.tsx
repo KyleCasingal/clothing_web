@@ -4,17 +4,17 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <section className="max-container padding-container flex flex-row items-center justify-center gap 20  py-10 pb-32 md:gap-2 lg:py-20">
+      <section className="max-container padding-container flex flex-row items-center justify-stretch gap 20  py-10 pb-32 md:gap-2 lg:py-20">
         <div>
           <Image
             src="/6CC3231009001R.jpg"
             alt="landing photo"
-            className=""
+            className="px-2"
             width={1500}
             height={1000}
           />
         </div>
-        <div className="p-5">
+        <div>
           <h6 className="flex font-logoFont text-5xl text-black dark:text-white py-5">
             V E E R
           </h6>

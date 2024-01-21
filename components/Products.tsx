@@ -58,7 +58,7 @@ const products = [
 
 export default function Products() {
   return (
-    <div className="text-black dark:text-white border 2 border-red-500">
+    <div className="text-black dark:text-white">
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h1 className="text-2xl  text-black dark:text-white pb-5">Products</h1>
 
