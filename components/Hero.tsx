@@ -9,12 +9,12 @@ const Hero = () => {
           <Image
             src="/6CC3231009001R.jpg"
             alt="landing photo"
-            className="px-2"
-            width={1500}
+            className="rounded-2xl"
+            width={2000}
             height={1000}
           />
         </div>
-        <div>
+        <div className="pl-10">
           <h6 className="flex font-logoFont text-5xl text-black dark:text-white py-5">
             V E E R
           </h6>
