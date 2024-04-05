@@ -1,17 +1,4 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+
 const products = [
   {
     id: 1,
@@ -53,7 +40,7 @@ const products = [
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
-  // More products...
+ 
 ];
 
 export default function Products() {
