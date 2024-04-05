@@ -40,26 +40,26 @@ export default function About() {
             ))}
           </dl>
         </div>
-        <div className="grid grid-cols-2 grid-rows-2 gap-x-2 gap-y-2 sm:gap-2 lg:gap-4">
+        <div className="grid grid-cols-2 grid-rows-2 gap-x-4 gap-y-4 sm:gap-4 lg:gap-8">
           <img
             src="https://www.alexanderwang.com/dw/image/v2/BCCC_PRD/on/demandware.static/-/Sites-master/default/dw87ac7863/hi-res/6CC3231009001D.jpg?sw=720"
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
-            className="rounded-lg bg-gray-100 max-h-72"
+            className="rounded-lg bg-gray-100 max-h-full"
           />
           <img
             src="https://www.alexanderwang.com/dw/image/v2/BCCC_PRD/on/demandware.static/-/Sites-master/default/dw818ba2f9/hi-res/6CC3231009001F.jpg?sw=720"
             alt="Top down view of walnut card tray with embedded magnets and card groove."
-            className="rounded-lg bg-gray-100 max-h-72"
+            className="rounded-lg bg-gray-100 max-h-full"
           />
           <img
             src="https://www.alexanderwang.com/dw/image/v2/BCCC_PRD/on/demandware.static/-/Sites-master/default/dw05a2ae22/hi-res/6CC3231009001B.jpg?sw=340"
             alt="Side of walnut card tray with card groove and recessed card area."
-            className="rounded-lg bg-gray-100 max-h-72"
+            className="rounded-lg bg-gray-100 max-h-full"
           />
           <img
             src="https://www.alexanderwang.com/dw/image/v2/BCCC_PRD/on/demandware.static/-/Sites-master/default/dwe603af07/hi-res/6CC3231009001A.jpg?sw=720"
             alt="Walnut card tray filled with cards and card angled in dedicated groove."
-            className="rounded-lg bg-gray-100 max-h-72"
+            className="rounded-lg bg-gray-100 max-h-full"
           />
         </div>
       </div>
